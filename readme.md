@@ -12,7 +12,7 @@ We will create these Objects utilizing a [Class constructor](https://developer.m
 
 Topics:
 
-- Class construction
+- [Class construction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - Objects
 - State machines
 - Lookup tables
@@ -47,7 +47,9 @@ Your work will result in:
 
 ### Define the `Location` Class Objects
 
-- [ ] Create a new `home` Object of the Location class. Pass in the name of the location and the description of the location to the constructor.
+- [ ] Create a new `home` Object of the Location class. 
+- [ ] Pass in the name of the location and the description of the location to the constructor.
+    - For home, the name would be "home" and the description could be something like "You are at home" 
 - [ ] Repeat this process for two more Objects: `sidewalk` and `store`.
 
 ### Define the `locationCurrent` variable and the `locationLookUp` lookup table
@@ -58,6 +60,7 @@ Your work will result in:
 ### Define the `locationStates` state machine
 
 - [ ] Create the `locationStates` state machine. This will be an Object consisting of `key: value` pairs wherein the key is a state and the value is an array that contains its possible transitions as Strings.
+- Possible transitions: Home to sidewalk, sidewalk to store, store to sidewalk, and sidewalk to home
 
 ### Inform the user of the opening scene
 
@@ -67,12 +70,12 @@ Your work will result in:
 
 - [ ] Inside of `moveLocation`, set up an `if` statement whose conditional logic checks if `locationStates[locationCurrent]` includes `newLocation`.
 - [ ] Inside of this `if` statement, set `locationCurrent` to now be `newLocation`.
-- [ ] Inside of this `if` statement, console log the `name` and `description` of `locationCurrent` by checking it in `locationLookUp` using bracket notation.
+- [ ] Inside of this `if` statement, console log the `description` of `locationCurrent` by checking it in `locationLookUp` using bracket notation.
 - [ ] Outside of this `if`, `else` console log a message informing the user they cannot go from `locationCurrent` to `newLocation`.
 
-### Invoke the `moveLocation()` function
+### Test the `moveLocation()` function
 
-- [ ] Invoke `moveLocation` multiple times. Include states that should transition successfully and states that will fail to test your code.
+- [ ] `moveLocation` is invoked multiple times, including states that should transition successfully and states that will fail. Ensure you are getting the same output as the corresponding comments
 
 ## Review
 

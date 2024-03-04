@@ -27,7 +27,7 @@ class Location {
   moveLocation("store");
   // Prints 'You are in the store.'
   moveLocation("home");
-  // Prints 'You are at your house.'
+  // Prints 'You cannot go from store to home.'
   moveLocation("sidewalk");
   // Prints 'You are on the sidewalk.'
   moveLocation("home");
