@@ -2,11 +2,11 @@
 
 ## Objective
 
-In this lab we will create a program that represents a trip to the store and back.
+In this exercise we will create a program that represents a trip to the store and back.
 
 ## Learning
 
-In this lab, we will be utilizing [state machines](https://en.wikipedia.org/wiki/Finite-state_machine) with lookup tables to handle transitions between Objects.
+In this exercise, we will be utilizing [state machines](https://en.wikipedia.org/wiki/Finite-state_machine) with lookup tables to handle transitions between Objects.
 
 We will create these Objects utilizing a [Class constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes).
 
@@ -25,7 +25,7 @@ Topics:
 
 ## Achieving
 
-In this lab, we will create a piece of software that represents a trip to the corner store and back. This software will transfer the user between different states ("locations") and only allow state transitions between certain states.
+In this exercise, we will create a piece of software that represents a trip to the corner store and back. This software will transfer the user between different states ("locations") and only allow state transitions between certain states.
 
 Your work will result in:
 
@@ -79,7 +79,7 @@ Your work will result in:
 
 ## Review
 
-In this lab, we have practiced utilizing state machines combined with lookup tables to manipulate Objects. The software should:
+In this exercise, we have practiced utilizing state machines combined with lookup tables to manipulate Objects. The software should:
 
 - Transition between successful states and inform users of the new state and its description.
 - If a transition fails, inform users that those states do not transition to each other.
